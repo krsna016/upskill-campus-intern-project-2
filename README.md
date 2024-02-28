@@ -36,7 +36,7 @@ To get started with the File Organizer project:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/file-organizer.git
+   git clone https://github.com/krsna016/upskill-campus-intern-project-2.git
    ```
 
 2. **Follow the on-screen instructions to specify the target directory and organize files.**

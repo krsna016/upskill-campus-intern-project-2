@@ -16,8 +16,6 @@ The File Organizer project is designed to simplify the process of organizing fil
 ## Project Structure
 
 - `main/FileOrganizer.py`: The main Python script implementing the file organizer with Tkinter.
-- `templates/`: Directory containing GUI templates and styles.
-- `json/`: Directory for potential future enhancements, such as storing configuration settings.
 
 ## Usage
 

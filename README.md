@@ -15,11 +15,11 @@ The File Organizer project is designed to simplify the process of organizing fil
 
 ## Project Structure
 
-- `main/FileOrganizer.py`: The main Python script implementing the file organizer with Tkinter.
+- `main/Main.py`: The main Python script implementing the file organizer with Tkinter.
 
 ## Usage
 
-1. Run the `FileOrganizer.py` script.
+1. Run the `Main.py` script.
 2. Choose the target directory to organize.
 3. Click the "Organize Files" button to initiate the file organization process.
 4. Files will be categorized and moved into respective folders within the target directory.

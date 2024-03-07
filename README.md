@@ -11,16 +11,16 @@ Password Manager aims to simplify password management by securely storing passwo
 - **Encryption Algorithms**: Passwords are securely stored using encryption algorithms.
 - **User Interface**: Tkinter-based GUI for easy input and retrieval of passwords.
 - **Password Generation**: Generate strong and random passwords.
-- **Database Storage**: Passwords are stored in a local SQLite database (`passwords.db`).
+- **Database Storage**: Passwords are stored in a json file (`passwords.json`).
 
 ## Project Structure
 
-- `main/PasswordManager.py`: Main Python script implementing the password manager with Tkinter.
+- `main/Main.py`: Main Python script implementing the password manager with Tkinter.
 
 ## Usage
 
-1. **Run the `PasswordManager.py` Script:**
-   - Execute the `PasswordManager.py` script to launch the application.
+1. **Run the `Main.py` Script:**
+   - Execute the `Main.py` script to launch the application.
 
 2. **Set Master Password:**
    - Enter your master password when prompted. This will be used to secure and access your stored passwords.

@@ -1,46 +1,51 @@
-# File Organizer
+# Password Manager
 
-A Python project that provides a user-friendly file organization solution with a graphical user interface (GUI). Users can specify a target directory, and the application categorizes files based on types such as images, documents, videos, and others. The project utilizes Tkinter for the GUI.
+Safely manage and store your passwords with this Python-based Password Manager. The project offers a secure and user-friendly interface for storing, retrieving, and generating strong passwords. Tkinter is utilized for the graphical user interface (GUI).
 
 ## Overview
 
-The File Organizer project is designed to simplify the process of organizing files within a directory. It scans the specified directory, categorizes files based on their types, and moves them into respective folders. The project aims to enhance file management and make the organization of diverse file types more efficient.
+Password Manager aims to simplify password management by securely storing passwords using encryption. It provides features such as storing passwords for various accounts, generating strong passwords, and retrieving passwords when needed.
 
 ## Features
 
-- Categorizes files into folders based on types (Images, Documents, Videos, Others).
-- Provides a user-friendly interface using Tkinter for easy navigation.
-- Custom algorithms for efficient file categorization and organization.
-- Responsive design for an enhanced user experience.
+- **Encryption Algorithms**: Passwords are securely stored using encryption algorithms.
+- **User Interface**: Tkinter-based GUI for easy input and retrieval of passwords.
+- **Password Generation**: Generate strong and random passwords.
+- **Database Storage**: Passwords are stored in a local SQLite database (`passwords.db`).
 
 ## Project Structure
 
-- `main/Main.py`: The main Python script implementing the file organizer with Tkinter.
+- `main/PasswordManager.py`: Main Python script implementing the password manager with Tkinter.
 
 ## Usage
 
-1. Run the `Main.py` script.
-2. Choose the target directory to organize.
-3. Click the "Organize Files" button to initiate the file organization process.
-4. Files will be categorized and moved into respective folders within the target directory.
+1. **Run the `PasswordManager.py` Script:**
+   - Execute the `PasswordManager.py` script to launch the application.
+
+2. **Set Master Password:**
+   - Enter your master password when prompted. This will be used to secure and access your stored passwords.
+
+3. **Save Passwords:**
+   - Input service name, username, and password to securely save your passwords.
+
+4. **Retrieve Passwords:**
+   - Enter service name and username to retrieve stored passwords.
+
+5. **Generate Passwords:**
+   - Click on the "Generate Password" button to create strong and random passwords.
 
 ## Configuration
 
-- No explicit configuration is required for basic functionality.
-- Future enhancements might involve additional configuration settings stored in a `json/` directory.
+- **No Explicit Configuration Required:**
+  - The basic functionality works without additional configuration.
+  
+- **Security Note:**
+  - While the application uses encryption, ensure a strong and unique master password.
 
 ## Getting Started
 
-To get started with the File Organizer project:
+To start using the Password Manager project:
 
-1. **Clone the repository:**
-
+1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/krsna016/upskill-campus-intern-project-2.git
-   ```
-
-2. **Follow the on-screen instructions to specify the target directory and organize files.**
-
-   ```bash
-   Choose the target directory, and click "Organize Files" to categorize and organize the files.
-   ```
+   git clone https://github.com/your-username/password_manager.git
